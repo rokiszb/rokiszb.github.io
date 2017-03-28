@@ -1,0 +1,42 @@
+html { 
+  background: url(jura.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.turinys {
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	padding: 50px;
+	height: 400px;
+	width: 350px;
+	margin:200  auto;
+
+}
+
+#citata {
+	font-style:italic;
+}
+
+ a:visited, a:link  {
+    color: #fff;
+    margin:5px;
+    
+}
+
+div  {
+	font-family: "Josefin Slab";
+	
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+.profile_pic {
+	height: 120px;
+	width: 160px;
+	border-radius:50%;
+}
