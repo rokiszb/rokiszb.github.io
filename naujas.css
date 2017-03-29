@@ -75,12 +75,9 @@ nav ul li a{
 .contact {
 	font-size:30px;
 margin:0 auto;
-   width: 600px;
-   position: relative;
-
- margin-top:100px;
- 
-
+  width: 600px;
+  position: relative;
+ margin-top:200px;
 
 }
 
@@ -140,3 +137,13 @@ float:right;
 	
 	text-align:center;
 }
+
+#cv {
+	position: relative;
+	width: 80%;
+	left: 10%;
+	height: 700px;
+	border: none;
+	margin-top:80px;
+}
+
