@@ -74,11 +74,12 @@ nav ul li a{
 
 .contact {
 	font-size:30px;
-	position:absolute;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+margin:0 auto;
+   width: 600px;
+   position: relative;
+
+ margin-top:100px;
+ 
 
 
 }
@@ -94,25 +95,20 @@ nav ul li a{
 
 
 
-.row {
-		
-}
-
-.col {
-	float:left;
-	
 }
 .contact  p:nth-child(1){
 	margin-top:40px;}
 footer {
 	   position:absolute;
-   bottom:0;
+   bottom:0px;
    width:100%;
    height:60px;   /* Height of the footer */
-  
+  left: 0px;
    text-align:center;
    color:#fff;
-   
+   clear: both;
+   z-index: -1;
+  
 	}
 
 footer p {
@@ -120,9 +116,27 @@ footer p {
 	}
 
 .profile_pic {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
 	height: 300px;
-	float:right;
 	border-radius:20%;
+	margin-bottom: 20px;
 
 }
 	
+#photo {
+	margin:0 auto;
+float:right;
+  position: relative;
+ 
+   width: 50%;
+}
+
+#ikonos   {
+
+
+	
+	text-align:center;
+}
